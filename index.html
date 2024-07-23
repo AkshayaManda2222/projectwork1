@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+        .main {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            width: 100%;
+            height: 7rem;
+            background-color: white;
+            color: white;
+            display: flex;
+        }
+
+        .box1 {
+            width: 22rem;
+            height: 7rem;
+            background-color: darkslateblue;
+            color: white;
+            text-align: center;
+            align-content: center;
+        }
+
+        .box2 {
+            margin-left: 1rem;
+            width: 53rem;
+            height: 7rem;
+            background-color: gainsboro;
+            display: flex;
+        }
+
+        .box2-1 {
+            margin-left: 14rem;
+            margin-top: 2rem;
+            background-color: red;
+            width: 6rem;
+            height: 4rem;
+            color: white;
+            text-align: center;
+        }
+
+        .box2-2 {
+            margin-left: 1rem;
+            margin-top: 2rem;
+            background-color: white;
+            width: 6rem;
+            height: 4rem;
+            color: black;
+            text-align: center;
+            align-content: center;
+        }
+
+        .box2-3 {
+            margin-left: 1rem;
+            margin-top: 2rem;
+            background-color: white;
+            width: 6rem;
+            height: 4rem;
+            color: black;
+            text-align: center;
+            align-content: center;
+        }
+
+        .box2-4 {
+            margin-left: 1rem;
+            margin-top: 2rem;
+            background-color: white;
+            width: 6rem;
+            height: 4rem;
+            color: black;
+            text-align: center;
+            align-content: center;
+        }
+
+        .main2 {
+            display: flex;
+            width: 100%;
+            height: 30rem;
+            background-color: white;
+            margin-top: 2rem;
+            justify-content: center;
+        }
+
+        .box3 {
+        
+            width: 50rem;
+            height: 25rem;
+            background-color: antiquewhite;
+        }
+
+        .box4 {
+            margin-left: 1rem;
+            width: 24rem;
+            height: 30rem;
+            background-color: gainsboro;
+            color: black;
+            padding-left: 2rem;
+        }
+
+        .box5 {
+            margin-top: 2rem;
+            width: 100%;
+            height: 11rem;
+            background-color: darkslateblue;
+            display: flex;
+            justify-content: center;
+        }
+
+        .main3 {
+            margin-top: 2rem;
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            background-color: white;
+            grid-template-areas:
+                'a b'
+                'c b';
+    
+        }
+
+        .box6 {
+            padding-left: 3rem;
+            width: 50%rem;
+            height: 15rem;
+            grid-area: a;
+            background-color: gainsboro;
+           
+        }
+
+        .box7 {
+            margin-left: 1rem;
+            width: 50%rem;
+            height: 31rem;
+            grid-area: b;
+           
+            background-color: rgb(49, 21, 234);
+
+
+        }
+
+        .box8 {
+            padding-left: 3rem;
+            margin-top: 1rem;
+            width: 50%rem;
+            height: 15rem;
+            grid-area: c;
+           background-color: gainsboro;
+         }
+         .nav {
+            margin-top: 1rem;
+            width: 100%;
+            background-color: rgb(117, 175, 234);
+            height: 20vh;
+        }
+
+        .k {
+            width: 95%;
+            display: flex;
+            justify-content: end;
+            align-items: center;
+
+
+        }
+
+        .k1 {
+            width: 95%;
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+
+        }
+
+        .k2,
+        .k3 {
+            margin-left: 10px;
+            margin-top: 0px;
+
+
+
+        }
+
+        .k3 {
+            color: white;
+        }
+        .k4{
+            margin-left: 50px;
+        }
+
+        .k4>img {
+            padding: 10px;
+
+
+        }
+
+        .k5 {
+            width: 100%;
+            height: 5vh;
+
+            background-color: rgb(117, 175, 234);
+        }
+
+        .k6 {
+            width: 100%;
+            height: 15vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+
+            background-color: rgb(134, 231, 134);
+        }
+        .k7{
+            display: grid;
+            grid-template-columns: 50% 20% 20%;
+            height: 100%;
+            gap:2%;
+            margin-top:3%;
+            margin-left: 5%;
+            margin-bottom: 5%;
+        }
+       .k11{
+        width: 100%;
+        height: 100%;
+
+       }
+       .k8,.k9{
+        
+        background-color: gainsboro;
+
+       }
+        .j {
+            margin: 10%;
+            width: 80%;
+            border: none;
+            background-color: rgba(9, 91, 94, 0);
+            color: rgb(90, 121, 95);
+            border-bottom: 2px solid rgb(143, 228, 161);
+           
+        }
+
+        .q {
+            background-color: rgb(143, 228, 161);
+            color: white;
+            margin-left: 70%;
+            border: 2px solid rgb(143, 228, 161); 
+        }
+        .k9>p{
+            margin: 10%;
+
+        }
+        .k12{
+            width: 100%;
+            height: 5vh;
+            background-color: rgb(143, 228, 161);
+        }
+        .k13{
+            display: flex;
+            justify-content: center;
+            margin-top: 5%;
+        }
+        .k14{
+            text-align:center;
+            color:rgb(143, 228, 161);
+        }
+        .bu{
+            background-color: red;
+            border: 0px;
+        }
+        .bu2{
+            background-color: gray;
+            border: 0px;
+        }
+        .box5{
+            display: grid;
+            gap: 10px;
+            grid-template-columns: auto auto auto;
+            color: white;
+            justify-content:space-around;
+           padding-top: 20px;
+           padding: 20px;
+        }
+        .a{
+            margin-left: 60px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="box1">COMPARTO</div>
+        <div class="box2">
+            <div class="box2-1">0.1<br>
+                About
+            </div>
+            <div class="box2-2">0.2<br>
+                Services
+            </div>
+            <div class="box2-3">0.3<br>
+                Gallery
+            </div>
+            <div class="box2-4">0.4<br>
+                Contact
+            </div>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="box3"><img src="./comparto-image-01.jpg" width="100%" height="480px"></div>
+        <div class="box4">
+            <h2>.01 Comparto CSS Layout</h2>
+            <p>comparto is a custom light-weight CSS layout for</p>
+            <p>your website.You can easily adapt and use this</p>
+            <p>for your commercial or personal website.Feel</p>
+            <p>free to use it.</p><br>
+            <p>You cannot redistribute this template ZIP file in</p>
+            <p>any template collection website.please contact</p>
+            <p>TemplateMo if you have any question.</p><br>
+            <p>Nunc sed gravida elit.curabitur rutrum elit id</p>
+            <p>lobortis viverra.Fusce at libero dui.</p>
+            <button class="bu">More details</button>
+        </div>
+    </div>
+    <div class="box5">
+        <div> <img src="https://www.svgrepo.com/show/73061/church.svg" width="60px" class="a">
+        <p>Aenean vel est id massa condimentum</p>
+        </div>
+       <div> <img src="https://www.svgrepo.com/show/266979/bar-graph-statistics.svg" width="60px" class="a">
+        <p>suspendisee interdum lectus purus</p>
+    </div>
+       <div><img src="https://www.svgrepo.com/show/313292/photos.svg" width="60px" class="a">
+       <p>Nulla ac sodales est vel ilaculis purus</p></div>
+        
+    </div>
+    <div class="main3">
+        <div class="box6"><h2>.02 Aliquam Pretium hendrerit</h2>
+        <p>Cras tempus,velit amet facilisis venenatis,</p>
+        <p>erat felis imperdiet lectus,at posuere elit</p>
+        <p>metus.Title #333 BG #F2F2F2</p>
+        <p>Nam iaculis,urna ut laoreet aliquam,massa</p>
+        <p>magna dapibus.Text #666</p>
+    </div>
+        <div class="box7"><img src="./comparto-image-02.jpg" width="100%" height="496px"></div>
+        <div class="box8">
+            <p>Nam iaculis,urna ut laoreet aliquam,massa</p>
+            <p>magna dapibus nibh,at Pellentesque lectus</p>
+            <p>odio non risus.Nulla ac sodales est,vel</p>
+            <p>iaculis.text#333.BG#DDD</p><br>
+            <button class="bu2">Read More</button>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="k">
+            <h2>.03 The Gallery Section</h2>
+
+
+        </div>
+        <div class="k1">
+            <p class="k3">Show All .</p>
+            <p class="k2">Nature .</p>
+            <p class="k2">Animal .</p>
+            <p class="k2">People </p>
+        </div>
+    </div>
+    <div class="k4">
+        <img src="./gallery-item-01.jpg" width="200px">
+        <img src="./gallery-item-02.jpg" width="200px">
+        <img src="./gallery-item-03.jpg" alt="" width="200px">
+        <img src="./gallery-item-04.jpg" alt="" width="200px">
+        <img src="./gallery-item-05.jpg" alt="" width="200px">
+        <img src="./gallery-item-06.jpg" alt="" width="200px">
+        <img src="./gallery-item-07.jpg" alt="" width="200px">
+        <img src="./gallery-item-08.jpg" alt="" width="200px">
+        <img src="./gallery-item-09.jpg" alt="" width="200px">
+        <img src="./gallery-item-10.jpg" alt="" width="200px">
+
+    </div>
+    <div class="k5">
+    </div>
+    <div class="k6">
+        <h2 style="color: white;">.04 Contact Us</h2>
+    </div>
+
+
+
+
+    <div class="k7">
+        <div class="k10">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.4313630981355!2d79.15127947494291!3d17.724302783221503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb5860297fea87%3A0xf9d4a8d3a6b2d117!2sJangaon!5e0!3m2!1sen!2sin!4v1721649335725!5m2!1sen!2sin"
+                 style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade" class="k11"></iframe>
+
+        </div>
+        <div class="k8">
+            <input type="text" value="Name" name="name" id="" placeholder="Name" class="j">
+            <br><br>
+            <input type="email" value="Email" name="email" placeholder="email" class="j">
+            <br><br>
+            <textarea name="message" id="" placeholder="message" class="j"></textarea>
+            <br><br>
+            <input type="button" value="send" name="" id="" class="q">
+        </div>
+        <div class="k9">
+            <p>Pellentesque egestas odio sed tellus dictum, Vel lobortis ante vachichua.</p>
+            <p>Morbi eget accumsam libero non tincidunt felis.</p>
+            <p>Tel:010-020-0990</p>
+            <p>Email:info@company.com</p>
+        </div>
+
+    </div>
+    <div class="k12">
+
+
+    </div>
+    <div class="k13">
+        <img src="https://www.svgrepo.com/show/506477/facebook.svg" width="40px">
+        <img src="https://www.svgrepo.com/show/520798/instagram.svg" width="40px">
+        <img src="https://www.svgrepo.com/show/501035/twitter.svg" width="40px">
+        <img src="https://www.svgrepo.com/show/506633/youtube.svg" width="40px">
+      
+    </div>
+   <p class="k14">Copyright 2020 comparto Studio - Design:TemplateMo</p>
+
+
+    
+
+</body>
+
+</html>
